@@ -35,5 +35,13 @@
   "bugs": {
     "url": "https://github.com/trivikr/redux-react-hook-todo-ts/issues"
   },
-  "homepage": "https://github.com/trivikr/redux-react-hook-todo-ts#readme"
+  "homepage": "https://github.com/trivikr/redux-react-hook-todo-ts#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.11.3",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.3",
+    "typescript": "^3.3.3333"
+  }
 }
