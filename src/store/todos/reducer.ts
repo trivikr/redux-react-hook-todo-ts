@@ -1,7 +1,7 @@
-import { TodoType, TodoActionType, TodoAction } from "./types";
-import { Reducer } from "react";
+import { TodoType, TodoActionType } from "./types";
+import { Reducer } from "redux";
 
-const reducer: Reducer<TodoType[], TodoAction> = (state = [], action) => {
+const reducer: Reducer<TodoType[]> = (state = [], action) => {
   switch (action.type) {
     case TodoActionType.ADD_TODO:
       return [...state, action.todo];

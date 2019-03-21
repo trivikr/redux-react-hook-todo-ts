@@ -5,8 +5,3 @@ export interface StoreType {
   todos: TodoType[];
   visibilityFilter: VisibilityFilterType;
 }
-
-export const getDefaultStoreType = (): StoreType => ({
-  todos: [],
-  visibilityFilter: VisibilityFilterType.SHOW_ALL
-});

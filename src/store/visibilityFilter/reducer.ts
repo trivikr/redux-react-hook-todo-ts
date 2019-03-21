@@ -1,11 +1,7 @@
-import {
-  VisibilityFilterType,
-  VisibilityFilterAction,
-  VisibilityFilterActionType
-} from "./types";
-import { Reducer } from "react";
+import { VisibilityFilterType, VisibilityFilterActionType } from "./types";
+import { Reducer } from "redux";
 
-const reducer: Reducer<VisibilityFilterType, VisibilityFilterAction> = (
+const reducer: Reducer<VisibilityFilterType> = (
   state = VisibilityFilterType.SHOW_ALL,
   action
 ) => {
