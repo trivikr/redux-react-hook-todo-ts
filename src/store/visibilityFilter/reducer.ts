@@ -1,5 +1,5 @@
-import { VisibilityFilterType, VisibilityFilterActionType } from "./types";
 import { Reducer } from "redux";
+import { VisibilityFilterType, VisibilityFilterActionType } from "./types";
 
 const reducer: Reducer<VisibilityFilterType> = (
   state = VisibilityFilterType.SHOW_ALL,
@@ -13,4 +13,5 @@ const reducer: Reducer<VisibilityFilterType> = (
   }
 };
 
+// eslint-disable-next-line import/prefer-default-export
 export { reducer as visibilityFilterReducer };

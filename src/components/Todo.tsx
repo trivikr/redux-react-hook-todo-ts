@@ -5,14 +5,15 @@ const Todo: React.FC<{ onClick(): void; completed: boolean; text: string }> = ({
   completed,
   text
 }) => (
-  <li
+  <button
+    type="button"
     onClick={onClick}
     style={{
       textDecoration: completed ? "line-through" : "none"
     }}
   >
     {text}
-  </li>
+  </button>
 );
 
 export default Todo;

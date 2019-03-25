@@ -6,6 +6,7 @@ const Link: React.FC<{ active: boolean; onClick(): void }> = ({
   onClick
 }) => (
   <button
+    type="button"
     onClick={onClick}
     disabled={active}
     style={{

@@ -11,5 +11,6 @@ render(
   <StoreContext.Provider value={store}>
     <App />
   </StoreContext.Provider>,
+  // eslint-disable-next-line no-undef
   document.getElementById("root")
 );
