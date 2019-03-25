@@ -15,7 +15,7 @@ const FilterLink: React.FC<{
       active={filter === visibilityFilter}
       onClick={() => dispatch(setVisibilityFilter(filter))}
     >
-      BLAH
+      {children}
     </Link>
   );
 };
