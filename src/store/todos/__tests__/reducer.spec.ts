@@ -15,7 +15,7 @@ const todo2 = {
 
 describe("todos reducer", () => {
   it("should handle initial state", () => {
-    expect(todosReducer([], {})).toEqual([]);
+    expect(todosReducer([], { type: "DEFAULT" })).toEqual([]);
   });
 
   describe("should handle ADD_TODO", () => {
