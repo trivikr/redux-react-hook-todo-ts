@@ -5,7 +5,11 @@ module.exports = {
     project: "./tsconfig.json"
   },
   plugins: ["@typescript-eslint"],
-  extends: ["plugin:@typescript-eslint/recommended"],
+  extends: [
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
   rules: {
     "@typescript-eslint/no-unused-vars": "off"
   }
