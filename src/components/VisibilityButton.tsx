@@ -1,6 +1,6 @@
 import React from "react";
 
-const Link: React.FC<{ active: boolean; onClick(): void }> = ({
+const VisibilityButton: React.FC<{ active: boolean; onClick(): void }> = ({
   active,
   children,
   onClick
@@ -17,4 +17,4 @@ const Link: React.FC<{ active: boolean; onClick(): void }> = ({
   </button>
 );
 
-export default Link;
+export default VisibilityButton;

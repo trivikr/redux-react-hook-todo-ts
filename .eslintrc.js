@@ -17,5 +17,8 @@ module.exports = {
     "react/jsx-filename-extension": [1, { extensions: [".jsx", ".tsx"] }],
     "import/no-unresolved": "off",
     "react/prop-types": "off"
+  },
+  env: {
+    jest: true
   }
 };

@@ -5,15 +5,16 @@ const Todo: React.FC<{ onClick(): void; completed: boolean; text: string }> = ({
   completed,
   text
 }) => (
-  <button
-    type="button"
+  // eslint-disable-next-line jsx-a11y/no-noninteractive-element-interactions
+  <li
     onClick={onClick}
+    onKeyPress={onClick}
     style={{
       textDecoration: completed ? "line-through" : "none"
     }}
   >
     {text}
-  </button>
+  </li>
 );
 
 export default Todo;

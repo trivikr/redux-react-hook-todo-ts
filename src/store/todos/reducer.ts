@@ -1,5 +1,5 @@
-import { TodoType, TodoActionType } from "./types";
 import { Reducer } from "redux";
+import { TodoType, TodoActionType } from "./types";
 
 const reducer: Reducer<TodoType[]> = (state = [], action) => {
   switch (action.type) {
@@ -14,4 +14,5 @@ const reducer: Reducer<TodoType[]> = (state = [], action) => {
   }
 };
 
+// eslint-disable-next-line import/prefer-default-export
 export { reducer as todosReducer };
