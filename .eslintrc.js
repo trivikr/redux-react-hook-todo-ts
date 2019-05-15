@@ -12,7 +12,6 @@ module.exports = {
     "prettier/@typescript-eslint"
   ],
   rules: {
-    "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     "react/jsx-filename-extension": [1, { extensions: [".jsx", ".tsx"] }],
     "import/no-unresolved": "off",
